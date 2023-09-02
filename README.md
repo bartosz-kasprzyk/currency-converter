@@ -1,8 +1,8 @@
 # Currency Converter
 
-![logo strony](/images/share.png)
+![preview](/images/demo.gif)
 
-## DEMO
+## Link
 
 https://bartek-kasprzyk.github.io/currency-converter/
 
