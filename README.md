@@ -6,6 +6,6 @@
 
 https://bartek-kasprzyk.github.io/currency-converter/
 
-## Opis
+## Description
 
-Jest to kalkulator walut dla euro, dolara i złotówki.
+Currency conversion tool. Works for EUR, USD and PLN only.
