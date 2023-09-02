@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+<body class="body">
+    <div class="workspace">
+        <form class="js-form">
+            <fieldset class="form__calculator">
+                <legend class="form__title">Kalkulator walut</legend>
+                <div class="form__currencyBar">
+                    <p>
+                        <label class="form__currency">
+                            Mam: <select class="from js-from" name="from">
+                                <option value="PLN">PLN</option>
+                                <option value="EUR" selected>EUR</option>
+                                <option value="USD">USD</option>
+                            </select>
+                        </label>
+                        <label class="form__currency">
+                            Chcę: <select class="to js-to" name="to">
+                                <option value="PLN" selected>PLN</option>
+                                <option value="EUR">EUR</option>
+                                <option value="USD">USD</option>
+                            </select>
+                        </label>
+                    </p>
+                </div>
+                <p>
+                    <label class="form__amount">
+                        Kwota, którą chcę wymienić<span class="form__required">*</span>:<br>
+                        <input type="number" class="amount js-amount" name="amount" required min="1">
+                    </label>
+                </p>
+                <p class="form__footnote">
+                    Pola wymagane oznaczone są *.
+                </p>
+            </fieldset>
+            <button class="button">Przelicz!</button>
+        </form>
+        <div class="result">
+            Kwota po przeliczeniu: <strong class="js-result">N/A</strong>
+        </div>
+    </div>
+</body>
+
+</html>
