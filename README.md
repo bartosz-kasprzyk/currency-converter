@@ -12,12 +12,14 @@ This website is a currency conversion tool that lets you calculate different cur
 
 Keep an eye out for future changes!
 
-## Technologies
-
-Project is created with:
+Project was created with:
 * HTML
 * CSS
 * JS
+  
+using technologies such as:
+* BEM
+* ES6+ features
 
 ## Author
 
