@@ -2,7 +2,7 @@
 
 ![preview](/images/demo.gif)
 
-## Link
+## Demo
 
 https://bartek-kasprzyk.github.io/currency-converter/
 
