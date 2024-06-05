@@ -1,11 +1,28 @@
 # Currency Converter
 
-![logo strony](/images/share.png)
+![preview](/images/demo.gif)
 
-## DEMO
+## Demo
 
-https://bartek-kasprzyk.github.io/currency-converter/
+https://bartosz-kasprzyk.github.io/currency-converter/
 
 ## Description
 
-Currency conversion tool. Works for EUR, USD and PLN only.
+This website is a currency conversion tool that lets you calculate different currencies. It's a prototype, so it only works for EUR, USD and PLN.
+
+Keep an eye out for future changes!
+
+Project was created with:
+* HTML
+* CSS
+* JS
+  
+using technologies such as:
+* BEM
+* ES6+ features
+
+## Author
+
+This project was created by Bartosz Kasprzyk. Please feel free to contact me if you need any further information.
+
+Thank you for visiting my website!
